@@ -11,7 +11,7 @@ These descriptors are lines of text commencing and encoded as follows :
 
 1. Zero to many spaces indicating the indentation level. Properties at the zero level apply to the whole text stream
 
-2. A label composed of these characters   *A-Za-z0-9.:_-|#~* Attribute and cluster labels must end with a ~ (tilde character). By convention cluster labels are attributes which start with an upper-case character and edn with a ~ . Property labels commence and end with ~ .
+2. A label composed of these characters  *A-Za-z0-9.:_-|#~* . Attribute and cluster labels must end with a ~ (tilde character). By convention cluster labels are attributes which start with an upper-case character and edn with a ~ . Property labels commence and end with ~ .
 
 3. Zero to many spaces.
 
@@ -56,7 +56,7 @@ There are some special descriptors :
                     split up into components separated by the | character. This feature can be used to 
                     create a table of values.
                     
-In addition to these special descriptors lines commencing with *|space* and *#space* have a special meaning :
+In addition to these special descriptors lines commencing with |space and #space have a special meaning :
 
     | This line of text commences on a new line
     # This line of text is a comment and is ignored in the data model.
